@@ -4,14 +4,14 @@ function Mostar()
 {
 	// defino una variable
 	var nombre;
-	//alert(nombre); MAL
+	//<-- para negar              alert(nombre); MAL
 	nombre=prompt("ingrese su nombre","natalia natalia");
 	alert(nombre);	
-	/*
+	/* <---- abro
 	nombre="tomas";
 	alert(nombre);
 	alert("nombre");
-	*/
+	*/  //<-----  cierro
 	// var person = prompt("Please enter your name", "Harry Potter");
 }
 
