@@ -33,7 +33,7 @@ function restar()
 
 	resta=(num1-num2);
 
-	alert("la suma es "+resta);
+	alert("la resta es "+resta);
 }
 
 function multiplicar()
@@ -50,7 +50,7 @@ function multiplicar()
 
 	multiplicar=(num1*num2);
 
-	alert("la suma es "+multiplicar);
+	alert("la multiplicación es "+multiplicar);
 }
 
 function dividir()
@@ -67,6 +67,6 @@ function dividir()
 
 	dividir=(num1/num2);
 
-	alert("la suma es "+dividir);
+	alert("la división es "+dividir);
 }
 
