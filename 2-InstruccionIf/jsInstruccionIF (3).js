@@ -5,14 +5,13 @@ function Mostrar()
 
 	edad=document.getElementById('edad').value;
 
-if(edad>=18)
-{
-	alert("sos mayor");
-}
+	if(edad>=18)
+	{
+		alert("sos mayor");
+	}
 
-else
-{
-	alert("sos menor");
-}
-
+	else
+	{
+		alert("sos menor");
+	}
 }//FIN DE LA FUNCIÓN

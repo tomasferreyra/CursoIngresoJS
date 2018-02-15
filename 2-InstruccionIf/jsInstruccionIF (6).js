@@ -5,18 +5,19 @@ function Mostrar()
 
 	edad=document.getElementById('edad').value;
 
-if(edad<13)
-{
-	alert("Eres un niño");
-}
-if(edad>12&&edad<18)
-{
-	alert("Eres adolescente");
-}
-if(edad>17)
-{
-	alert("Eres adulto");
-}
-
-
+	if(edad<13)
+	{
+		alert("Eres un niño");
+	}	
+	else
+	{
+		if(edad>17)
+		{
+			alert("Eres mayor");
+		}
+		else
+		{
+			alert("Eres adolescente");
+		}
+	}
 }//FIN DE LA FUNCIÓN
