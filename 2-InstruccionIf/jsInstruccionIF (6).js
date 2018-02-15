@@ -9,9 +9,9 @@ if(edad<13)
 {
 	alert("Eres un niño");
 }
-if(edad>12&&edad<17)
+if(edad>12&&edad<18)
 {
-	alert("Eres adolecente");
+	alert("Eres adolescente");
 }
 if(edad>17)
 {

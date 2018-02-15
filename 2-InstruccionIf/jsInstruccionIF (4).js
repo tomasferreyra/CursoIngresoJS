@@ -8,7 +8,7 @@ function Mostrar()
 
 if(edad>=13&&edad<18)
 {
-	alert("sos adolecente");
+	alert("sos adolescente");
 }
 
 }//FIN DE LA FUNCIÓN

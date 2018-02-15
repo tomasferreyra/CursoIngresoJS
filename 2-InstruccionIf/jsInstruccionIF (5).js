@@ -7,7 +7,7 @@ var edad;
 
 if(edad<13||edad>17)
 {
-	alert("no sos adolecente");
+	alert("no sos adolescente");
 }
 
 }//FIN DE LA FUNCIÓN
