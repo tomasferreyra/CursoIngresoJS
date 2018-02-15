@@ -7,17 +7,12 @@ function Mostrar()
 
 if(edad>=18)
 {
-
 	alert("sos mayor");
 }
 
 else
 {
-
 	alert("sos menor");
-
 }
-
-
 
 }//FIN DE LA FUNCIÓN
