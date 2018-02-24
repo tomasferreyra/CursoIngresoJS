@@ -40,9 +40,16 @@ function Mostrar()
 		}
 		respuesta=prompt("desea continuar?");
 	}
+	
+	positivo=parseInt(positivo);
+	negativo=parseInt(negativo);
+	
 	document.write("Cantidad de positivos: "+positivo);
 	document.write("<br>Cantidad de negativos: "+negativo);
 	document.write("<br>Cantidad de ceros: "+cero);
 	document.write("<br>Cantidad de números pares: "+par);
+	document.write("<br>Promedio de positivos: "+(positivo/contador));
+	document.write("<br>Promedios de negativos: "+(negativo/contador));
+	document.write("<br>Cantidad de números pares: "+(positivo+negativo));
 
 }//FIN DE LA FUNCIÓN
